@@ -56,8 +56,8 @@ setting. See below.
    with multimeter continuity tester for bridges before power on!
 7. Make sure to check the orientation of all electrolytic caps. (+)
    indicates the positive and a solid white "|" indicates the negative.
-8. MAKE SURE YOUR POWER PLUG IS CENTER POSITIVE OR THINGS WILL GO
-   BADLY. If you fuck up and plug in a reversed polarity supply -
+8. **MAKE SURE YOUR POWER PLUG IS CENTER POSITIVE OR THINGS WILL GO
+   BADLY.** If you fuck up and plug in a reversed polarity supply -
    replace electrolytic caps C1 and C4.
 9. Please remember to adjust the LCD contrast potentiometer - if
    incorrectly set the unit and backlight will power on but the
@@ -78,5 +78,5 @@ setting. See below.
     the offending metal tab out of the way if necessary
 14. If Error 20 is encountered on first boot:
    - Check that all FETs and Transformers are turned in the correct direction
-   - Check that resistors R35 and R46 these should be 200k
+   - Check that resistors R35 and R46 are the correct 200k values
    - [See this thread on the message board](https://metafetish.club/t/mk-312bt-failure-20/)

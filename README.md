@@ -23,16 +23,21 @@ setting. See below.
   zip with the gerbers
 - Quantity: No requirement, choose whatever you like
 - Thickness: 1.6
-- PCB Color: No requirement, choose whatever you like
+- PCB Color:
+   - Main Boards: No requirement, choose whatever you like
+   - Front Panel: Black is recommended, but not required. Choose whatever you like otherwise.
 - Surface finish: HASL
 - Copper weight: 1oz
 - Gold fingers: No
 - Material: Standard FR4
 - Panel by jlcpcb: No
 - Different Design 
-   - 2 for main boards
-   - 1 for front panel
-
+   - Main Boards: 2
+   - Front Panel: 1
+- Remarks:
+   - Main Boards: V Score the Main Boards panel as indicated.
+   - Front Panel: Place all Fab Markings (Serial Numbers/Date Codes) on the BOTTOM side of the front panel board.
+   
 ## Board Assembly Instructions - IMPORTANT
 
 1. Trim Potentiometer knobs to correct length if desired
@@ -80,3 +85,64 @@ setting. See below.
    - Check that all FETs and Transformers are turned in the correct direction
    - Check that resistors R35 and R46 are the correct 200k values
    - [See this thread on the message board](https://metafetish.club/t/mk-312bt-failure-20/)
+
+## MK312-BT Firmware
+
+1. We are using an external 8mhz crystal instead of the internal RC
+   oscillator that the original uses. We need to set the fuses to
+   enable this. 
+   - LOW FUSE: 0xFF 
+   - HIGH FUSE: 0xDC
+2. A patched version of buttshock-et312-frankenbutt-f005 is
+   recommended.
+3. The firmware needs to be changed to replace the up/down arrows on
+   the UI with left right arrows (this is because the LCD we use has a
+   different character set)
+4. Obtain or modify a copy of the firmware and flash the result onto
+   the AVR.
+5. If you don't want to use an external crystal - we need to set the
+   calibration byte for the internal oscillator. If programming a
+   blank chip you first need to read the calibration bytes of that
+   part (i.e. using avrdude -t “dump calibration” the fourth byte is
+   the calibration byte for 8MHz or use atmel studio to read the
+   oscillator calibration byte). Then program that byte into 0x3fff in
+   your firmware. These bytes will differ on different chips even from
+   the same batch. The firmware reads that byte to set OSCCAL on
+   startup. If the byte is inaccurate various problems and failures
+   will occur related to timing, interrupts, and serial communication.
+   Just use an external crystal dammit.
+
+## MK312-BT Original Fab Notes
+
+(These are the old fab notes from the repo, mostly kept here for
+history sake. Ordering instructions above cover most of this.)
+
+### Main Boards
+
+1. V Score the Main Boards panel as indicated.
+2. Main Boards has 2 board designs panelized on 1 panel.
+3. Thickness is standard 1.6mm (0.063inches)
+4. Board is 2 layers
+5. HASL Finish - Pb Free Preferred if possible, otherwise Pb HASL is OK
+6. 1oz copper
+7. FR4 material
+8. Main Boards : Green solder mask, White Silkscreen (silkscreen BOTH top and bottom sides)
+9. ITAR : NO
+10. IPC-A-610 - Class2 (If possible - otherwise ignore)
+11. Main Board Dimensions : (193.04mm x 104.14mm) or (7.600 inches x 4.100 inches) 
+
+### Front Panel Boards
+
+1. Place all Fab Markings (Serial Numbers/Date Codes) on the BOTTOM side of the front panel board. 
+2. Thickness is standard 1.6mm (0.063inches)
+3. Board is 2 layers
+4. HASL Finish - Pb Free Preferred if possible, otherwise Pb HASL is OK
+5. 1oz copper
+6. FR4 material
+7. Front Panel Boards : Black Solder Mask, While Silkscreen
+8. ITAR : NO
+9. IPC-A-610 - Class2 (If possible - otherwise ignore)
+10. Front Panel Board Dimensions :  (196.85mm x 58.72mm) or (7.750inches x 2.312inches) 
+
+
+

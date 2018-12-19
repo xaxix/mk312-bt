@@ -186,3 +186,12 @@ To do this automatically:
    value for 8 MHz R/C position is copied to &H3FFF of bin location or
    use external 8 MHz crystal with appropriate fuse bits set (FFS use
    the external crystal)
+
+## 3D Printable Case
+
+STL files for a 3D printable case for the MK312 are available in the
+case/ directory. For hardware, this case requires:
+
+- 4 M2.5x20 screws
+- up to 3 M2.5x5 screws
+- some dampening for the battery (double sided foam tape may work)

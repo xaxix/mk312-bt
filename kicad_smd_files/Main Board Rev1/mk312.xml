@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>F:\mk312\mk312.sch</source>
-    <date>5/22/2019 4:33:31 AM</date>
+    <source>F:\mk312-bt-fork\kicad_smd_files\Main Board Rev1\mk312.sch</source>
+    <date>5/25/2019 12:16:59 AM</date>
     <tool>Eeschema (5.1.2)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -85,26 +85,26 @@
   </design>
   <components>
     <comp ref="R2">
-      <value>12K</value>
+      <value>110</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">Panasonic</field>
-        <field name="Manufacturer_Part_Number">ERJ-PA3F1202V</field>
-        <field name="Mouser Part Number">667-ERJ-PA3F1202V</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1100V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1100V</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
       <tstamp>49F62BA8</tstamp>
     </comp>
     <comp ref="R1">
-      <value>1.2K</value>
+      <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">Panasonic</field>
-        <field name="Manufacturer_Part_Number">ERJ-PA3F1201V</field>
-        <field name="Mouser Part Number">667-ERJ-PA3F1201V</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
@@ -234,13 +234,13 @@
       <tstamp>5CB7C0AA</tstamp>
     </comp>
     <comp ref="IC3">
-      <value>L7809ABD2T-TR</value>
+      <value>L7809ABV</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/389/l78-974043.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">STMicroelectronics</field>
-        <field name="Manufacturer_Part_Number">L7809CV</field>
-        <field name="Mouser Part Number">511-L7809CV</field>
+        <field name="Manufacturer_Part_Number">L7809ABV</field>
+        <field name="Mouser Part Number">511-L7809ABV</field>
         <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=511-L7809ABD2T-TR</field>
       </fields>
       <libsource lib="Regulator_Linear" part="L7809" description="Positive 1.5A 35V Linear Regulator, Fixed Output 9V, TO-220/TO-263/TO-252"/>
@@ -248,13 +248,13 @@
       <tstamp>5CB7C1EF</tstamp>
     </comp>
     <comp ref="IC4">
-      <value>L7809ABD2T-TR</value>
+      <value>L7809ABV</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/389/l78-974043.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">STMicroelectronics</field>
-        <field name="Manufacturer_Part_Number">L7809CV</field>
-        <field name="Mouser Part Number">511-L7809CV</field>
+        <field name="Manufacturer_Part_Number">L7809ABV</field>
+        <field name="Mouser Part Number">511-L7809ABV</field>
         <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=511-L7809ABD2T-TR</field>
       </fields>
       <libsource lib="Regulator_Linear" part="L7809" description="Positive 1.5A 35V Linear Regulator, Fixed Output 9V, TO-220/TO-263/TO-252"/>
@@ -456,6 +456,22 @@
       <libsource lib="Regulator_Linear" part="NCP1117-ADJ_TO252" description="1A Low drop-out regulator, Adjustable Output 1.25 - 18.8V, TO-252 (DPAK)"/>
       <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
       <tstamp>5CE58BCB</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CE6475E</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CE652E1</tstamp>
     </comp>
     <comp ref="R3">
       <value>100K</value>
@@ -762,8 +778,8 @@
       <datasheet>https://www.mouser.com/datasheet/2/140/XP0214A-1511152.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">E-Switch</field>
-        <field name="Manufacturer_Part_Number">TL1105SPF100Q</field>
-        <field name="Mouser Part Number">612-TL1105SPF100Q</field>
+        <field name="Manufacturer_Part_Number">TL1105SPF160Q</field>
+        <field name="Mouser Part Number">612-TL1105SP</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
@@ -775,8 +791,8 @@
       <datasheet>https://www.mouser.com/datasheet/2/140/XP0214A-1511152.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">E-Switch</field>
-        <field name="Manufacturer_Part_Number">TL1105SPF100Q</field>
-        <field name="Mouser Part Number">612-TL1105SPF100Q</field>
+        <field name="Manufacturer_Part_Number">TL1105SPF160Q</field>
+        <field name="Mouser Part Number">612-TL1105SP</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
@@ -788,8 +804,8 @@
       <datasheet>https://www.mouser.com/datasheet/2/140/XP0214A-1511152.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">E-Switch</field>
-        <field name="Manufacturer_Part_Number">TL1105SPF100Q</field>
-        <field name="Mouser Part Number">612-TL1105SPF100Q</field>
+        <field name="Manufacturer_Part_Number">TL1105SPF160Q</field>
+        <field name="Mouser Part Number">612-TL1105SP</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
@@ -801,8 +817,8 @@
       <datasheet>https://www.mouser.com/datasheet/2/140/XP0214A-1511152.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">E-Switch</field>
-        <field name="Manufacturer_Part_Number">TL1105SPF100Q</field>
-        <field name="Mouser Part Number">612-TL1105SPF100Q</field>
+        <field name="Manufacturer_Part_Number">TL1105SPF160Q</field>
+        <field name="Mouser Part Number">612-TL1105SP</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
@@ -810,7 +826,7 @@
     </comp>
     <comp ref="LED1">
       <value>POWER</value>
-      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <footprint>mk312-smd-footprints:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/90/1410-CLM2D-GPC-BPC-1275496.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">Cree</field>
@@ -823,7 +839,7 @@
     </comp>
     <comp ref="LED2">
       <value>OUTPUT B</value>
-      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <footprint>mk312-smd-footprints:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/90/1410-CLM2D-GPC-BPC-1275496.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">Cree</field>
@@ -836,7 +852,7 @@
     </comp>
     <comp ref="LED3">
       <value>OUTPUT A</value>
-      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <footprint>mk312-smd-footprints:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/90/1410-CLM2D-GPC-BPC-1275496.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">Cree</field>
@@ -849,7 +865,7 @@
     </comp>
     <comp ref="LED4">
       <value>STATE</value>
-      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <footprint>mk312-smd-footprints:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/90/1410-CLM2D-GPC-BPC-1275496.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">Cree</field>

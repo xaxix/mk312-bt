@@ -30,12 +30,12 @@ P 6800 5400
 AR Path="/BCDF5D1A" Ref="R?"  Part="1" 
 AR Path="/5CB412A8/BCDF5D1A" Ref="R11"  Part="1" 
 F 0 "R11" H 6650 5459 59  0000 L BNN
-F 1 "47" H 6650 5270 59  0000 L BNN
+F 1 "130" H 6650 5270 59  0000 L BNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6800 5400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 6800 5400 50  0001 C CNN
-F 4 "Panasonic" H 6800 5400 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F47R0V" H 6800 5400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F47R0V" H 6800 5400 50  0001 C CNN "Mouser Part Number"
+F 3 "" H 6800 5400 50  0001 C CNN
+F 4 "Yageo" H 6800 5400 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0603FR-07130RL" H 6800 5400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0603FR-07130RL" H 6800 5400 50  0001 C CNN "Mouser Part Number"
 	1    6800 5400
 	1    0    0    -1  
 $EndComp
@@ -538,7 +538,7 @@ L 4xxx:4066 U3
 U 1 1 5CEF4C89
 P 8100 2700
 F 0 "U3" H 8100 2528 50  0000 C CNN
-F 1 "CD4006B" H 8100 2437 50  0000 C CNN
+F 1 "CD4066B" H 8100 2437 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8100 2700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8100 2700 50  0001 C CNN
 F 4 "Texas Instruments" H 8100 2700 50  0001 C CNN "Manufacturer_Name"
@@ -552,7 +552,7 @@ L 4xxx:4066 U3
 U 2 1 5CEF4D94
 P 8100 3400
 F 0 "U3" H 8100 3228 50  0000 C CNN
-F 1 "CD4006B" H 8100 3137 50  0000 C CNN
+F 1 "CD4066B" H 8100 3137 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8100 3400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8100 3400 50  0001 C CNN
 F 4 "Texas Instruments" H 8100 3400 50  0001 C CNN "Manufacturer_Name"
@@ -566,7 +566,7 @@ L 4xxx:4066 U3
 U 3 1 5CEF4E23
 P 8100 4100
 F 0 "U3" H 8100 3928 50  0000 C CNN
-F 1 "CD4006B" H 8100 3837 50  0000 C CNN
+F 1 "CD4066B" H 8100 3837 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8100 4100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8100 4100 50  0001 C CNN
 F 4 "Texas Instruments" H 8100 4100 50  0001 C CNN "Manufacturer_Name"
@@ -580,7 +580,7 @@ L 4xxx:4066 U3
 U 4 1 5CEF4EC8
 P 8100 4800
 F 0 "U3" H 8100 4628 50  0000 C CNN
-F 1 "CD4006B" H 8100 4537 50  0000 C CNN
+F 1 "CD4066B" H 8100 4537 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8100 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8100 4800 50  0001 C CNN
 F 4 "Texas Instruments" H 8100 4800 50  0001 C CNN "Manufacturer_Name"
@@ -594,7 +594,7 @@ L 4xxx:4066 U3
 U 5 1 5CEF4F9D
 P 6950 1150
 F 0 "U3" H 7180 1196 50  0000 L CNN
-F 1 "CD4006B" H 7180 1105 50  0000 L CNN
+F 1 "CD4066B" H 7180 1105 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6950 1150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 6950 1150 50  0001 C CNN
 F 4 "Texas Instruments" H 6950 1150 50  0001 C CNN "Manufacturer_Name"

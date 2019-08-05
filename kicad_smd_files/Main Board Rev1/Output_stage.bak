@@ -24,8 +24,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 2500 7400 2400
 Connection ~ 7400 2400
-Wire Wire Line
-	4900 2500 5500 2500
 Connection ~ 4900 2500
 Wire Wire Line
 	6900 6700 6400 6700
@@ -42,8 +40,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 5700 7400 5600
 Connection ~ 7400 5600
-Wire Wire Line
-	5500 5700 4800 5700
 Connection ~ 4800 5700
 Text GLabel 2300 3850 0    50   BiDi ~ 0
 PB7
@@ -54,18 +50,6 @@ Wire Wire Line
 Text GLabel 3900 700  0    50   BiDi ~ 0
 PA0
 Connection ~ 4100 700 
-Wire Wire Line
-	5400 1600 5400 2300
-Wire Wire Line
-	5400 2300 5500 2300
-Connection ~ 5400 2300
-Connection ~ 5400 1600
-Wire Wire Line
-	5300 5500 5300 5200
-Wire Wire Line
-	5500 5500 5300 5500
-Connection ~ 5300 5200
-Connection ~ 5300 5500
 Text GLabel 2300 4050 0    50   BiDi ~ 0
 PB5
 Wire Wire Line
@@ -182,12 +166,12 @@ P 7700 1400
 AR Path="/4F009C7F" Ref="Q?"  Part="1" 
 AR Path="/5CB41D9F/4F009C7F" Ref="Q3"  Part="1" 
 F 0 "Q3" H 7950 1400 59  0000 L BNN
-F 1 "DMN10H170SK3-13" H 7950 1300 59  0000 L BNN
+F 1 "IRFR9024NTRPBF" H 7950 1300 59  0000 L BNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7700 1400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/115/DMN10H170SK3-1594697.pdf" H 7700 1400 50  0001 C CNN
-F 4 "Diodes Incorporated" H 7700 1400 50  0001 C CNN "Manufacturer_Name"
-F 5 "DMN10H170SK3-13" H 7700 1400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "621-DMN10H170SK3-13" H 7700 1400 50  0001 C CNN "Mouser Part Number"
+F 3 "https://www.mouser.com/datasheet/2/196/irfr9024npbf-1228513.pdf" H 7700 1400 50  0001 C CNN
+F 4 "Infineon" H 7700 1400 50  0001 C CNN "Manufacturer_Name"
+F 5 "IRFR9024NTRPBF" H 7700 1400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "942-IRFR9024NTRPBF" H 7700 1400 50  0001 C CNN "Mouser Part Number"
 	1    7700 1400
 	1    0    0    -1  
 $EndComp
@@ -198,12 +182,12 @@ P 7700 3500
 AR Path="/91F1D459" Ref="Q?"  Part="1" 
 AR Path="/5CB41D9F/91F1D459" Ref="Q5"  Part="1" 
 F 0 "Q5" H 7950 3500 59  0000 L BNN
-F 1 "DMN10H170SK3-13" H 7950 3400 59  0000 L BNN
+F 1 "IRFR9024NTRPBF" H 7950 3400 59  0000 L BNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7700 3500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/115/DMN10H170SK3-1594697.pdf" H 7700 3500 50  0001 C CNN
-F 4 "Diodes Incorporated" H 7700 3500 50  0001 C CNN "Manufacturer_Name"
-F 5 "DMN10H170SK3-13" H 7700 3500 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "621-DMN10H170SK3-13" H 7700 3500 50  0001 C CNN "Mouser Part Number"
+F 3 "https://www.mouser.com/datasheet/2/196/irfr9024npbf-1228513.pdf" H 7700 3500 50  0001 C CNN
+F 4 "Infineon" H 7700 3500 50  0001 C CNN "Manufacturer_Name"
+F 5 "IRFR9024NTRPBF" H 7700 3500 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "942-IRFR9024NTRPBF" H 7700 3500 50  0001 C CNN "Mouser Part Number"
 	1    7700 3500
 	1    0    0    -1  
 $EndComp
@@ -230,12 +214,12 @@ P 7700 2400
 AR Path="/E26DE37C" Ref="Q?"  Part="1" 
 AR Path="/5CB41D9F/E26DE37C" Ref="Q4"  Part="1" 
 F 0 "Q4" H 7950 2400 59  0000 L BNN
-F 1 "DMP6180SK3-13" H 7950 2300 59  0000 L BNN
+F 1 "IRLR120NTRPBF" H 7950 2300 59  0000 L BNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7700 2400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/115/DMP6180SK3-247239.pdf" H 7700 2400 50  0001 C CNN
-F 4 "Diodes Incorporated" H 7700 2400 50  0001 C CNN "Manufacturer_Name"
-F 5 "DMP6180SK3-13" H 7700 2400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "621-DMP6180SK3-13" H 7700 2400 50  0001 C CNN "Mouser Part Number"
+F 3 "https://www.mouser.com/datasheet/2/196/irlr120npbf-1228003.pdf" H 7700 2400 50  0001 C CNN
+F 4 "Infineon" H 7700 2400 50  0001 C CNN "Manufacturer_Name"
+F 5 "IRLR120NTRPBF" H 7700 2400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "942-IRLR120NTRPBF" H 7700 2400 50  0001 C CNN "Mouser Part Number"
 	1    7700 2400
 	1    0    0    -1  
 $EndComp
@@ -458,12 +442,12 @@ P 7700 4500
 AR Path="/4FF9B51F" Ref="Q?"  Part="1" 
 AR Path="/5CB41D9F/4FF9B51F" Ref="Q6"  Part="1" 
 F 0 "Q6" H 7950 4500 59  0000 L BNN
-F 1 "DMN10H170SK3-13" H 7950 4400 59  0000 L BNN
+F 1 "IRFR9024NTRPBF" H 7950 4400 59  0000 L BNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7700 4500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/115/DMN10H170SK3-1594697.pdf" H 7700 4500 50  0001 C CNN
-F 4 "Diodes Incorporated" H 7700 4500 50  0001 C CNN "Manufacturer_Name"
-F 5 "DMN10H170SK3-13" H 7700 4500 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "621-DMN10H170SK3-13" H 7700 4500 50  0001 C CNN "Mouser Part Number"
+F 3 "https://www.mouser.com/datasheet/2/196/irfr9024npbf-1228513.pdf" H 7700 4500 50  0001 C CNN
+F 4 "Infineon" H 7700 4500 50  0001 C CNN "Manufacturer_Name"
+F 5 "IRFR9024NTRPBF" H 7700 4500 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "942-IRFR9024NTRPBF" H 7700 4500 50  0001 C CNN "Mouser Part Number"
 	1    7700 4500
 	1    0    0    -1  
 $EndComp
@@ -474,12 +458,12 @@ P 7700 6700
 AR Path="/CE8964FE" Ref="Q?"  Part="1" 
 AR Path="/5CB41D9F/CE8964FE" Ref="Q8"  Part="1" 
 F 0 "Q8" H 7950 6700 59  0000 L BNN
-F 1 "DMN10H170SK3-13" H 7950 6600 59  0000 L BNN
+F 1 "IRFR9024NTRPBF" H 7950 6600 59  0000 L BNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7700 6700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/115/DMN10H170SK3-1594697.pdf" H 7700 6700 50  0001 C CNN
-F 4 "Diodes Incorporated" H 7700 6700 50  0001 C CNN "Manufacturer_Name"
-F 5 "DMN10H170SK3-13" H 7700 6700 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "621-DMN10H170SK3-13" H 7700 6700 50  0001 C CNN "Mouser Part Number"
+F 3 "https://www.mouser.com/datasheet/2/196/irfr9024npbf-1228513.pdf" H 7700 6700 50  0001 C CNN
+F 4 "Infineon" H 7700 6700 50  0001 C CNN "Manufacturer_Name"
+F 5 "IRFR9024NTRPBF" H 7700 6700 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "942-IRFR9024NTRPBF" H 7700 6700 50  0001 C CNN "Mouser Part Number"
 	1    7700 6700
 	1    0    0    -1  
 $EndComp
@@ -506,12 +490,12 @@ P 7700 5600
 AR Path="/EF13FC82" Ref="Q?"  Part="1" 
 AR Path="/5CB41D9F/EF13FC82" Ref="Q7"  Part="1" 
 F 0 "Q7" H 7950 5600 59  0000 L BNN
-F 1 "DMP6180SK3-13" H 7950 5500 59  0000 L BNN
+F 1 "IRLR120NTRPBF" H 7950 5500 59  0000 L BNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7700 5600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/115/DMP6180SK3-247239.pdf" H 7700 5600 50  0001 C CNN
-F 4 "Diodes Incorporated" H 7700 5600 50  0001 C CNN "Manufacturer_Name"
-F 5 "DMP6180SK3-13" H 7700 5600 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "621-DMP6180SK3-13" H 7700 5600 50  0001 C CNN "Mouser Part Number"
+F 3 "https://www.mouser.com/datasheet/2/196/irlr120npbf-1228003.pdf" H 7700 5600 50  0001 C CNN
+F 4 "Infineon" H 7700 5600 50  0001 C CNN "Manufacturer_Name"
+F 5 "IRLR120NTRPBF" H 7700 5600 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "942-IRLR120NTRPBF" H 7700 5600 50  0001 C CNN "Mouser Part Number"
 	1    7700 5600
 	1    0    0    -1  
 $EndComp
@@ -1038,8 +1022,6 @@ Wire Wire Line
 Wire Wire Line
 	5300 5050 5300 5200
 Wire Wire Line
-	5300 5500 5300 5850
-Wire Wire Line
 	5300 6150 5300 6300
 Wire Wire Line
 	4800 6150 4800 6300
@@ -1053,8 +1035,6 @@ Wire Wire Line
 	4800 5100 4800 5250
 Wire Wire Line
 	5400 2950 5400 3200
-Wire Wire Line
-	5400 2300 5400 2650
 Wire Wire Line
 	4900 2500 4900 2650
 Wire Wire Line
@@ -1293,4 +1273,32 @@ Wire Wire Line
 	9050 2300 9050 1100
 Wire Wire Line
 	7800 1100 9050 1100
+Wire Wire Line
+	4900 2500 5150 2500
+Wire Wire Line
+	5150 2500 5150 2300
+Wire Wire Line
+	5150 2300 5500 2300
+Wire Wire Line
+	5500 2500 5400 2500
+Wire Wire Line
+	5400 2500 5400 1600
+Connection ~ 5400 1600
+Wire Wire Line
+	5400 2500 5400 2650
+Connection ~ 5400 2500
+Wire Wire Line
+	4800 5700 5150 5700
+Wire Wire Line
+	5150 5700 5150 5500
+Wire Wire Line
+	5150 5500 5500 5500
+Wire Wire Line
+	5300 5200 5300 5700
+Wire Wire Line
+	5300 5700 5500 5700
+Connection ~ 5300 5200
+Wire Wire Line
+	5300 5700 5300 5850
+Connection ~ 5300 5700
 $EndSCHEMATC

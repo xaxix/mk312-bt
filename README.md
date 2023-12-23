@@ -19,22 +19,31 @@ You'll need 2 gerber zip files from the gerbers directory (click links below to 
 can be in the same cart), due to difference in "Different Design"
 setting. See below.
 
-- 2 Layer PCB and Dimensions should be detected when you upload the
-  zip with the gerbers
+- Base Material: Standard "FR4"
+- Layers: "2" Layer (should be detected when you upload the zip with the gerbers)
+- Dimensions: (should be detected when you upload the zip with the gerbers)
 - Quantity: No requirement, choose whatever you like
-- Thickness: 1.6
+- Product Type: "Industrial/Consumer electronics"
+- Different Design 
+   - Main Boards: "2"
+   - Front Panel: "1"
+- Delivery Format: "Single PCB"
+- Thickness: "1.6"
 - PCB Color:
    - Main Boards: No requirement, choose whatever you like
    - Front Panel: Black is recommended, but not required. Choose whatever you like otherwise.
-- Surface finish: HASL
+- Silkscreen: "White"
+- Surface finish: "LeadFree HASL" or "HASL(with lead)
 - Copper weight: 1oz
-- Gold fingers: No
-- Material: Standard FR4
-- Panel by jlcpcb: No
-- Different Design 
-   - Main Boards: 2
-   - Front Panel: 1
-- Remarks:
+- Via Covering: Tented (?)
+- Board Outline Tolerance: "+-0,2mm(Regular)"
+- Confirm Production file: "No"
+- Remove Order Number: "No"
+- Flying Probe Test: "Fully Test"
+- Gold fingers: "No"
+- Castellated Holes: "No"
+- Edge Plating: "No"
+- PCB Remark:
    - Main Boards: V Score the Main Boards panel as indicated.
    - Front Panel: Place all Fab Markings (Serial Numbers/Date Codes) on the BOTTOM side of the front panel board.
    
